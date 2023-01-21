@@ -1,0 +1,13 @@
+.Content {
+    position: absolute;
+    width: -webkit-fill-available;
+    top: 110px;
+    left: 67px;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .Content {
+        left: 0;
+    }
+}

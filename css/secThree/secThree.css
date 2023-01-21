@@ -1,0 +1,42 @@
+.secThree .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secThree .chartOne {
+    padding: 10px;
+    width: 40% !important;
+    height: fit-content !important;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.secThree .chartTwo {
+    padding: 10px;
+    width: 40% !important;
+    height: fit-content !important;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.secThree h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 992px) {
+    .secThree .container {
+        display: block;
+    }
+    .secThree .chartOne {
+        width: 90% !important;
+        height: fit-content !important;
+        text-align: center;
+        margin: 15px auto;
+    }
+    .secThree .chartTwo {
+        width: 90% !important;
+        height: fit-content !important;
+        text-align: center;
+        margin: 15px auto;
+    }
+}

@@ -1,0 +1,238 @@
+.secOne .container {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secOne .mainFirst {
+    background-image: url(images/mainSec.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 40vh;
+}
+
+.secOne .mainFirst p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 30px 0px;
+}
+
+.secOne .mainFirst h2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.buttonOne {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: #6f4ef2;
+    color: white;
+}
+
+.buttonTwo {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: #f73164;
+}
+
+.secOne .mainSecond {
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 35vh;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.mainSecondOne {
+    width: 50%;
+}
+
+.mainSecondOne img {
+    width: -webkit-fill-available;
+    border-radius: 12px;
+}
+
+.mainSecondTwo {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.mainSecTwoFirst {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.mainSecTwoFirst h4 {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.mainSecTwoSec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainSecTwoSec h3 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainSecTwoSec h3 span {
+    color: #6f4ef2;
+}
+
+.mainSecTwoSec p {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainSecTwoSec p span {
+    color: #6f4ef2;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.mainSecTwoThree {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttonThree {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #6f4ef2;
+    color: white;
+}
+
+.buttonFour {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: #f73164;
+}
+
+.mainSecondTwo img {
+    height: 5vh;
+    width: 5vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.mainSecondTwo h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 1310px) {
+    .secOne .container {
+        display: block;
+    }
+    .secOne .mainFirst {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+    .secOne .mainSecond {
+        width: 95%;
+        padding: 20px;
+    }
+    .mainSecondOn {
+        height: auto;
+    }
+    .mainSecondOne img {
+        width: inherit;
+    }
+    .mainSecTwoThree {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mainSecondOne {
+        width: 55%;
+    }
+    .mainSecondTwo {
+        width: 45%;
+    }
+    .buttonThree {
+        padding: 10px 29px;
+        margin-right: 10px;
+    }
+    .buttonFour {
+        padding: 10px 29px;
+    }
+}
+
+@media (max-width: 992px) {
+    .mainSecondOne {
+        width: 60%;
+    }
+    .mainSecondTwo {
+        width: 40%;
+    }
+    .buttonThree {
+        padding: 10px 25px;
+    }
+    .buttonFour {
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .secOne .mainSecond {
+        display: block;
+        height: auto;
+    }
+    .mainSecondOne {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mainSecondTwo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .secOne .mainFirst {
+        width: 88%;
+    }
+    .secOne .mainSecond {
+        width: 88%;
+    }
+    .secOne .mainFirst h2 {
+        margin: 0;
+    }
+    .secOne .mainFirst p {
+        margin: 0;
+        margin: 10px 0px;
+    }
+}

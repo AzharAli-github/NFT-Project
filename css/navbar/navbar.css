@@ -1,0 +1,224 @@
+.navbar {
+    position: fixed;
+    width: -webkit-fill-available;
+    padding: 20px 0px;
+    background-color: #f2f2f2;
+}
+
+.navbar .container {
+    display: flex;
+}
+
+.navFirst {
+    width: 80%;
+}
+
+.navFirst .navSearch {
+    position: relative;
+}
+
+.navFirst .navSearch i {
+    position: absolute;
+    top: 23%;
+    left: 85px;
+    font-size: 23px;
+}
+
+.navFirst input {
+    margin-left: 70px;
+    font-size: 18px;
+    border-radius: 9px;
+    padding: 10px 70px;
+    border: none;
+}
+
+.navSecond {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navSecond a {
+    cursor: pointer;
+}
+
+.navSecond a:hover i {
+    color: #6f4ef2;
+}
+
+.navSecond a i {
+    font-size: 22px;
+}
+
+.fa-sun {
+    color: #f8d62b;
+}
+
+.navbar img {
+    height: 5vh;
+    width: 5vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bellButton {
+    position: relative;
+}
+
+
+/* Notification Icon Styling */
+
+#notifyDiv {
+    display: none;
+}
+
+.notifyDiv {
+    display: block !important;
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    right: 5px;
+    top: 40px;
+    width: 280px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.notifyDiv h3 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ededed;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.notifyChild {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ededed;
+    padding: 10px 0px;
+}
+
+.notifyChild h4 {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.notifyChild p {
+    margin: 0px;
+}
+
+.notifyChild .fas.fa-check {
+    background-color: #51bb25;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.notifyChild .fas.fa-close {
+    background-color: #dc3545;
+    color: white;
+    padding: 17px 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.notifyChild .fas.fa-question {
+    background-color: #f8d62b;
+    color: white;
+    padding: 17px 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/*                           Avatar Icon inside Navbar Styling */
+
+.avatarIcon {
+    position: relative;
+}
+
+#navAvatar {
+    display: none;
+}
+
+.navAvatar {
+    display: block !important;
+    position: absolute;
+    border: 1px solid white;
+    right: 1px;
+    width: 280px;
+    top: 40px;
+    background-color: white;
+    padding-top: 8px;
+    border-radius: 9px;
+}
+
+.navAvatarChild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ededed;
+}
+
+.navAvatarChild i {
+    padding: 15px;
+    background-color: #2f2cd8;
+    border-radius: 50%;
+    color: white;
+    margin-right: 10px;
+}
+
+.navAvatarChild h3 {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.navAvatarChild p {
+    margin: 0%;
+    font-family: monospace;
+    color: #858585;
+}
+
+.navAvatarChildMini {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ededed;
+    padding: 0px 30px;
+}
+
+.navAvatarChildMini:hover {
+    background-color: #6f4ef2;
+    color: white;
+}
+
+.navAvatarChildMini:hover i {
+    color: white;
+}
+
+.navAvatarChildMini:hover p {
+    color: white;
+}
+
+.navAvatarChildMini i {
+    padding: 0px 10px;
+    color: #6f4ef2;
+}
+
+.navAvatarChildMini p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #888a8c;
+}
+
+@media (max-width: 768px) {
+    .navFirst input {
+        width: 70%;
+    }
+    .navSecond {
+        width: 50%;
+    }
+}

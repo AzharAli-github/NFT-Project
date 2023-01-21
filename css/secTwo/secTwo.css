@@ -1,0 +1,160 @@
+.secTwo {
+    padding: 50px 0px;
+}
+
+.secTwo .container {
+    padding: 0px 20px;
+}
+
+.secTwoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secTwoHeader h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.secTwoHeader .secTwoTag {
+    text-decoration: none;
+    color: white;
+    background-color: #6f4ef2;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.secTwoHeader a {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: black;
+    border-radius: 20px;
+}
+
+.secTwoHeader a:hover {
+    color: white;
+    background-color: #6f4ef2;
+}
+
+.secTwo .allCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.secTwo .card {
+    padding: 20px;
+    /* width: 25%; */
+    margin: 10px 0px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.secTwo .itemImg {
+    position: relative;
+    width: 250px;
+}
+
+.secTwo .card .art {
+    width: inherit;
+    border-radius: 25px;
+}
+
+.secTwo .card .person {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 86%;
+    left: 190px;
+}
+
+.secTwo .itemText h2 {
+    margin: 7px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.secTwo .itemText h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.itemTextChild {
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeBidBtn {
+    width: 80%;
+    margin: 0px 20px;
+    background-color: #6f4ef2;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 11px;
+    cursor: pointer;
+    border: none;
+}
+
+.placeBidBtn:hover {
+    background-color: #593ec2;
+}
+
+.itemTextChild p span {
+    color: #6f4ef2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.itemTextChild h3 span {
+    color: #7184ad;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .secTwoHeader {
+        display: block;
+    }
+    .secTwoHeader h2 {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    .secTwo .card {
+        width: 100%;
+    }
+    .secTwo .itemImg {
+        width: 100%;
+    }
+    .secTwo .card .person {
+        height: 100px;
+        width: 100px;
+        top: 89%;
+        left: 76%;
+    }
+    .placeBidBtn {
+        width: 93%;
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 510px) {
+    .secTwo .card .person {
+        height: 71px;
+        width: 71px;
+        top: 89%;
+        left: 75%;
+    }
+}
+
+@media (max-width: 390px) {
+    .secTwo .card .person {
+        height: 60px;
+        width: 60px;
+        top: 87%;
+        left: 70%;
+    }
+}

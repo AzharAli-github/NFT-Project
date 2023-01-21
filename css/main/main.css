@@ -1,0 +1,134 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+body h3,
+h4,
+p {
+    color: black;
+}
+
+.body .navFirst input {
+    background-color: #1D1933;
+}
+
+.body .navFirst i {
+    color: white;
+}
+
+.body {
+    background-color: #131129;
+}
+
+.body .sidebar {
+    background-color: #1D1933;
+}
+
+.body .sidebar ul {
+    background-color: #1D1933;
+}
+
+.body .sidebar-content {
+    background-color: #1D1933;
+}
+
+.body h3 {
+    color: white;
+}
+
+.body h4 {
+    color: white;
+}
+
+.body p {
+    color: white;
+}
+
+.body div {
+    background-color: #131129;
+}
+
+a i {
+    color: #7e7e7e;
+}
+
+i {
+    color: #7e7e7e;
+}
+
+
+/*                For Section One Styling */
+
+.body .secOne .mainSecond {
+    background-color: #131129;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.body .mainSecondTwo h2 {
+    color: white;
+}
+
+
+/*                    For Section Two */
+
+.body .secTwoHeader h2 {
+    color: white;
+}
+
+.body .secTwoHeader a {
+    color: white;
+}
+
+.body .secTwo .card {
+    background-color: #1d1933;
+}
+
+.body .secTwo .itemImg {
+    background-color: #1D1933
+}
+
+.body .secTwo .itemText {
+    background-color: #1D1933
+}
+
+.body .secTwo .itemText div {
+    background-color: #1D1933
+}
+
+.body .secTwo .itemText h2 {
+    color: white;
+}
+
+
+/*                                Section Three */
+
+.body .secThree .chartOne {
+    background-color: #1D1933;
+}
+
+.body .secThree .chartTwo {
+    background-color: #1D1933;
+}
+
+
+/* Footer                        Section */
+
+footer {
+    background-color: #131129;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 30px;
+}
+
+.body footer {
+    color: #131129;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    footer {
+        margin: 40px 0px;
+    }
+}
